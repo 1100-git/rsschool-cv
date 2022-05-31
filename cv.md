@@ -119,4 +119,5 @@
 </div>
 
 <p style="text-align:center">i'm done</p>
+<p style="text-allign:right; text-size:3px">мне стыдно за свой копи-паст, как только найду время - исправлю</p>
 </head>
