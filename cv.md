@@ -118,5 +118,5 @@
     </div>
 </div>
 
-<p style:"text-align:center">i'm done</p>
+<p style="text-align:center">i'm done</p>
 </head>
