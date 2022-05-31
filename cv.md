@@ -117,13 +117,6 @@
       </details>
     </div>
 </div>
-&nbsp
-&nbsp
-&nbsp
-&nbsp
-&nbsp
-&nbsp
-&nbsp
-&nbsp
-<p>i'm done</p>
+
+<p style:"text-align:center">i'm done</p>
 </head>
