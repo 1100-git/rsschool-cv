@@ -1,5 +1,5 @@
 <head>
-    <p style="font-size:3em"><strong>Vlad Rybnyk</strong></p>
+    <p style="font-size:3em"><strong>Vlad Rybnyk</strong></p><hr>
     <p style="font-size:2em"><strong>Contacts</strong></p>
         <ul>
             <li><strong>mail:</strong> vlad.ribnik@gmail.com</li>
@@ -31,7 +31,6 @@
             <li>2010' - PC operator</li>
             <li>2011' - admin</li>
             <li>2022' - IT</li>
-            <li><strong>CSS</strong></li>
         </ul>
     <p style="font-size:2em;"><strong>Education</strong></p>
         <ul>
