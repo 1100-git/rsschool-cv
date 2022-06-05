@@ -8,7 +8,7 @@
         </ul>
     <p style="font-size:2em;"><strong>About</strong></p>
         <ul>
-            <li>Hi! I work as the chief IT specialist. I have experience in communication with people, remote support, maintenance of networks and computer peripherals, server admin on Linux and Windows, I establish a network, I have a lot of experience in Photoshop and other editors. I deal with different tasks every day. The main goal of this training is self-development in an attempt to learn something new.</li>
+            <li>Hi! I work as the chief IT specialist. I have experience in communication with people, remote support, maintenance of networks and computer peripherals, server admin on Linux and Windows, establishing a network, have a lot of experience in Photoshop and other editors. My work now - deal with different tasks every day. The main goal of this training is self-development in an attempt to learn something new.</li>
         </ul>
     <p style="font-size:2em;"><strong>Skills</strong></p>
         <ul>
@@ -38,8 +38,8 @@
         </ul>
     <p style="font-size:2em;"><strong>Langauge</strong></p>
         <ul>
-            <li>Ukraine</li>
-            <li>Russian</li>
-            <li>English</li>
+            <li>Ukraine - Native</li>
+            <li>Russian - Native</li>
+            <li>English - A2</li>
         </ul>
 </head>
