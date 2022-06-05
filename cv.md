@@ -38,8 +38,8 @@
         </ul>
     <p style="font-size:2em;"><strong>Langauge</strong></p>
         <ul>
-            <li>Ukraine</li>
-            <li>Russian</li>
+            <li>Ukraine - Native</li>
+            <li>Russian - Native</li>
             <li>English</li>
         </ul>
 </head>
