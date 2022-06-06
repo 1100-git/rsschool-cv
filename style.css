@@ -1,4 +1,28 @@
-all {
-    color: brown;
-    width: 100%;
-    }
+.all {
+    margin: auto;
+    max-width: 70%;
+  }
+  .left {
+    background-color: #8ED850;
+    position: absolute;
+    border: 1px solid black;
+    width: 25%;
+  }
+  .right {
+    background-color: blue;
+    margin-left: 26%;
+    width: 44%;
+    position: absolute;
+    border: 1px solid black;
+  }
+  .photo{
+    max-height: 200px;
+    padding: 0;
+    border-radius: 50%;
+  }
+  .name{
+  text-align: center;
+  }
+  .contacts{
+    margin-left: 10px;
+  }
