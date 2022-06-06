@@ -68,9 +68,20 @@ html, body {
     top: 150px;
     }
     .footer{
-        background-color: rgb(207, 207, 207);
-        width: 50%;
-        position: absolute;
-        margin-top: 829px;
-        text-align: center;
+    background-color: rgb(207, 207, 207);
+    width: 50%;
+    position: absolute;
+    margin-top: 829px;
+    text-align: center;
+    }
+    .pro1{
+    margin-left: 1.95em;
+    }    .pro2{
+    margin-left: 0.3em;
+    }    .pro3{
+    margin-left: 4.7em;
+    }    .pro4{
+    margin-left: 3.6em;;
+    }    .pro5{
+    margin-left: 4.15em;;
     }
