@@ -16,13 +16,24 @@
     border: 1px solid black;
   }
   .photo{
+    display: block;
+    margin: 0 auto;
     max-height: 200px;
     padding: 0;
     border-radius: 50%;
   }
   .name{
-  text-align: center;
+    font-size: 2em;
+    text-align: left;
+    margin-left: 30px;
   }
   .contacts{
     margin-left: 10px;
+  }
+  .about{
+    margin: 10px;
+    }
+  .study{
+    margin-bottom: 100px;
+    margin-left: 30px;
   }
