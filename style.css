@@ -1,39 +1,65 @@
-.all {
+html, body {
+    font-family: Andale Mono, monospace; 
+    }
+    .all {
     margin: auto;
-    max-width: 70%;
-  }
-  .left {
-    background-color: #8ED850;
+    width: 60%;
+    }
+    .left {
+    background-color: #98d5fd;
     position: absolute;
-    border: 1px solid black;
-    width: 25%;
-  }
-  .right {
-    background-color: blue;
-    margin-left: 26%;
-    width: 44%;
+    width: 24.9%;
+    }
+    .right {
+    background-color: #f7fda1;
+    margin-left: 25%;
+    width: 35%;
     position: absolute;
-    border: 1px solid black;
-  }
-  .photo{
+    }
+    .photo{
     display: block;
     margin: 0 auto;
     max-height: 200px;
-    padding: 0;
+    margin-top: 20px;
+    margin-bottom: 20px;
     border-radius: 50%;
-  }
-  .name{
-    font-size: 2em;
+    }
+    .name{
+    font-size: 3em;
     text-align: left;
     margin-left: 30px;
-  }
-  .contacts{
-    margin-left: 10px;
-  }
-  .about{
-    margin: 10px;
     }
-  .study{
-    margin-bottom: 100px;
+    .chaser{
+    margin-left: 10px;
+    font-size: 2em;
+    }
+    .about{
+    margin: 30px;
+    font-size: 1.1em;
+    text-align: justify;
+    line-height: 1.5;
+    }
+    .about1{
+    margin: 25px;
+    font-size: 1.1em;
+    }
+    .about2{
+    margin: 25px;
+    font-size: 1.1em;
+    margin-bottom: 76px;
+    }
+    .study{
+    position: absolute;
     margin-left: 30px;
-  }
+    top: 150px;
+    }
+    .Ukraine{
+    font-size: 3em; 
+    text-align: center;   
+    }
+    .footer{
+        background-color: rgb(207, 207, 207);
+        width: 60%;
+        position: absolute;
+        margin-top: 868px;
+    }
