@@ -52,7 +52,7 @@ html, body {
     font-size: 1.1em;
     text-align: justify;
     line-height: 1.5;
-    margin-bottom: 91px;
+    margin-bottom: 65px;
     }
     .about3{
     z-index: 1;
@@ -71,6 +71,6 @@ html, body {
         background-color: rgb(207, 207, 207);
         width: 50%;
         position: absolute;
-        margin-top: 855px;
+        margin-top: 829px;
         text-align: center;
     }
