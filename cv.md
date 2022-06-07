@@ -28,13 +28,13 @@
         </ul>
     <p style="font-size:2em;"><strong>Work</strong></p>
      <ul>
-            <li>2010' - PC operator</li>
-            <li>2011' - admin</li>
-            <li>2022' - IT</li>
+            <li>2010 - 2011 - PC operator</li>
+            <li>2011 - 2012 - admin</li>
+            <li>2012 - 2022 - IT</li>
         </ul>
     <p style="font-size:2em;"><strong>Education</strong></p>
         <ul>
-            <li>'2010 - Poltava polytechnika named after Yuri Kondratiouk - Economic cybernetics</li>
+            <li>2005 - 2010 - Economic cybernetics</li>
         </ul>
     <p style="font-size:2em;"><strong>Langauge</strong></p>
         <ul>
