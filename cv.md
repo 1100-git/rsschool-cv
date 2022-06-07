@@ -28,9 +28,9 @@
         </ul>
     <p style="font-size:2em;"><strong>Work</strong></p>
      <ul>
-            <li>2010 - 2011 - PC operator</li>
-            <li>2011 - 2012 - admin</li>
-            <li>2012 - 2022 - IT</li>
+            <li><strong>2010 - 2011</strong> - PC operator</li>
+            <li><strong>2011 - 2012</strong> - admin</li>
+            <li><strong>2012 - 2022</strong> - IT</li>
         </ul>
     <p style="font-size:2em;"><strong>Education</strong></p>
         <ul>
