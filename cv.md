@@ -1,0 +1,45 @@
+<head>
+    <p style="font-size:3em"><strong>Vlad Rybnyk</strong></p><hr>
+    <p style="font-size:2em"><strong>Contacts</strong></p>
+        <ul>
+            <li><strong>mail:</strong> vlad.ribnik@gmail.com</li>
+            <li><strong>discord:</strong> 1100 </li>
+            <li><strong>Github:</strong> 1100-git</li>
+        </ul>
+    <p style="font-size:2em;"><strong>About</strong></p>
+        <ul>
+            <li>Hi! I work as the chief IT specialist. I have experience in communication with people, remote support, maintenance of networks and computer peripherals, server admin on Linux and Windows, establishing a network, have a lot of experience in Photoshop and other editors. My work now - deal with different tasks every day. The main goal of this training is self-development in an attempt to learn something new.</li>
+        </ul>
+    <p style="font-size:2em;"><strong>Skills</strong></p>
+        <ul>
+            <li><strong>Windows</strong></li>
+            <li>DNS</li>
+            <li>DHCP</li>
+            <li>AD</li>
+            <li><strong>ubuntu LTS</strong></li>
+            <li>squid xx</li>
+            <li>iptables</li>
+            <li>Apache</li>
+            <li>Zimbra Open Source Editioniptables</li>
+            <li><strong>technical support</strong></li>
+            <li><strong>PS</strong></li>
+            <li><strong>HTML</strong></li>
+            <li><strong>CSS</strong></li>
+        </ul>
+    <p style="font-size:2em;"><strong>Work</strong></p>
+     <ul>
+            <li>2010' - PC operator</li>
+            <li>2011' - admin</li>
+            <li>2022' - IT</li>
+        </ul>
+    <p style="font-size:2em;"><strong>Education</strong></p>
+        <ul>
+            <li>'2010 - Poltava polytechnika named after Yuri Kondratiouk - Economic cybernetics</li>
+        </ul>
+    <p style="font-size:2em;"><strong>Langauge</strong></p>
+        <ul>
+            <li>Ukraine - Native</li>
+            <li>Russian - Native</li>
+            <li>English - A2</li>
+        </ul>
+</head>
