@@ -4,135 +4,99 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./assets/img/favicon.ico">
     <link rel="stylesheet" href="style.css">
     <title>1100-git-CV</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@100;400&display=swap" rel="stylesheet">
 </head>
 <body>
     <header class="header">
         <div class="conteiner">
             <nav class="nav">
                 <ul class="nav-list">
-                  <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
-                  <li class="nav-item"><a href="#summary" class="nav-link">Summary</a></li>
+                  <li class="nav-item"><a href="#links" class="nav-link">Links</a></li>
+                  <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
                   <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
-                  <li class="nav-item"><a href="#code" class="nav-link">code</a></li>
-                  <li class="nav-item"><a href="#courses" class="nav-link">courses</a></li>
-                  <li class="nav-item"><a href="#projects" class="nav-link">projects</a></li>
-                  <li class="nav-item"><a href="#education " class="nav-link">education </a></li>
-                  <li class="nav-item"><a href="#english" class="nav-link">english</a></li>
+                  <li class="nav-item"><a href="#code" class="nav-link">Code</a></li>
+                  <li class="nav-item"><a href="#courses" class="nav-link">Courses</a></li>
+                  <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+                  <li class="nav-item"><a href="#education " class="nav-link">Education </a></li>
+                  <li class="nav-item"><a href="#lang" class="nav-link">Languages</a></li>
                 </ul>
               </nav>
         </div>
     </header>
     <main class="main">
-        <div class="conteiner">
-            <section class="section" id="profile">
-                <hi class="section-title">Vlad Rybnyk</hi>
-            </section>            
-            <section class="section" id="Contacts">
-                <h2 class="section-title">Contacts</h2>
+        <div class="container">
+            <div class="profile">
+                <div><img class="logo" src="./assets/img/98901480.png" alt="my photo"></div>
+                <div class="line"></div>
+                <div><div class="section-profile">
+                    <h1 class="name">Vlad Rybnyk</h1>
+                    <h2 class="section-title">JavaScript/Front-end</h2>
+                </div></div>
+              </div>         
+            <section class="section" id="links">
+                <h2 class="section-title">Links</h2>
+                <ul class="about">
+                    <li class="nav-item"><strong>Discord: </strong><a href="https://discordapp.com/users/938467506459385957/">1100</a></li>
+                    <li class="nav-item"><strong>Github: </strong><a href="https://github.com/1100-git">1100-git</a></li>
+                </ul>        
             </section>
-            <section class="section" id="Summary">
-                <h2 class="section-title">Summary</h2>
+            <section class="section" id="About">
+                <h2 class="section-title">About</h2>
+                        <div class="about"><span>I dedicated, result-oriented professional with 10+ years of experience as the system administrator. Have an analytical mind, focused on optimization, attention to detail. Responsibility and readiness to act independently, willingness to learn and work</span></div>
             </section>
             <section class="section" id="Skills">
                 <h2 class="section-title">Skills</h2>
+                <ul class="about">
+                    <li><p>Windows</p></li>
+                    <li><p>Ubuntu LTS</p></li>
+                    <li><p>PS</p></li>
+                    <li><p>HTML</p></li>
+                    <li><p>CSS</p></li>
+                </ul>
             </section>
-            <section class="section" id="code">
-                <h2 class="section-title">code</h2>
+            <section class="section" id="Code">
+                <h2 class="section-title">Code</h2>
+                <pre class="pre">
+                    <code>
+    function - no function
+                    </code>
+                </pre>
             </section>
-            <section class="section" id="courses">
-                <h2 class="section-title">courses</h2>
+            <section class="section" id="Courses">
+                <h2 class="section-title">Courses</h2>
+                <div class="About"><p class="nav-item"><a href="https://app.rs.school">The Rolling Scopes</a></p></div>
             </section>
-            <section class="section" id="projects">
-                <h2 class="section-title">projects</h2>
+            <section class="section" id="Projects">
+                <h2 class="section-title">Projects</h2>
+                <div class="About"><p class="nav-item"><a href="https://github.com/rolling-scopes-school/tasks/blob/master/tasks/cv/cv-stage0.md">My CV</a></p></div>
             </section>
             <section class="section" id="education">
-                <h2 class="section-title">education</h2>
+                <h2 class="section-title">Education</h2>
+                <ul class="About">
+                    <li><strong>2005 - 2010</strong> - economic cybernetics</li>
+                    <li><strong>2022</strong> - The Rolling Scopes - JavaScript/Front-end</li>
+                </ul>
             </section>
-            <section class="section" id="english">
-                <h2 class="section-title">english</h2>
+            <section class="section" id="lang">
+                <h2 class="section-title">Languauges</h2>
+                <ul class="about">
+                    <li><strong>Ukrainian</strong> - Native</li>
+                    <li><strong>English</strong> - A2</li>
+                </ul>
             </section>
         </div>
     </main>
     <footer class="footer">
-        <div class="conteiner"></div>
+        <div class="container">
+			<div>
+				© 2022
+				<a href="https://github.com/1100-git" class="github nav-link">1100</a>
+			</div>
+			<a href="https://rs.school/js/" class="rss">
+			</a>
+		</div>
     </footer>
 </body>
-</html>
-
-  <body>
-    <div class="all">
-        <div class="about3"><p>Male, 34 years, Ukraine</p><a href="mailto:vlad.ribnik@gmail.com">vlad.ribnik@gmail.com</a></div>
-      <div class="left">
-      <div class="photo">
-        <img src="./assets/img/98901480.png" alt="1100-git" class="photo">
-      </div>
-      <div class="chaser">
-        <p><strong>About me</strong></p>
-        </div>
-            <p class="about">A dedicated, result-oriented professional with 10+ years of experience as the system administrator. Have an analytical mind, focused on optimization, attention to detail. Responsibility and readiness to act independently, willingness to learn and work</p>
-        <div class="chaser">
-            <p><strong>Links</strong></p>
-        </div>
-          <ul class="about1">
-            <li><strong>Discord:</strong><a href="https://discordapp.com/users/938467506459385957/">1100</a></li>
-            <li><strong>Github:</strong><a href="https://github.com/1100-git">1100-git</a></li>
-        </ul>
-        <div class="chaser">
-            <p><strong>Skills</strong></p>
-        </div>
-        <ul class="about1">
-            <li><strong>Windows</strong></li>
-            <li><strong>Ubuntu LTS</strong></li>
-            <li><strong>PS</strong></li>
-            <li><strong>HTML</strong></li>
-            <li><strong>CSS</strong></li>
-        </ul>
-      </div>
-
-    <div class="right">
-            <div class="name">
-                <p><strong>Vlad</strong></p>
-                <p><strong>Rybnyk</strong></p>
-            </div>
-            <div class="study">
-                <p>JavaScript/Front-end</p>
-            </div>
-            <div class="chaser2">
-                <p><strong>Work experience</strong></p>
-            </div>
-            <ul class="about1">
-                <li><strong>2010 - 2011</strong> - PC operator</li>
-                <li><strong>2011 - 2012</strong> - admin ;)</li>
-                <li><strong>2012 - 2022</strong> - system administrator</li>
-            </ul>
-            <div class="chaser">
-                <p><strong>Education</strong></p>
-            </div>
-            <ul class="about1">
-                <li><strong>2005 - 2010</strong> - economic cybernetics</li>
-                <li><strong>2022</strong> - The Rolling Scopes - JavaScript/Front-end</li>
-            </ul>
-            <div class="chaser">
-                <p><strong>Languages</strong></p>
-            </div>
-            <ul class="about1">
-                <li><strong>Ukrainian</strong> - Native</li>
-                <li><strong>Russian</strong> - Native</li>
-                <li><strong>English</strong> - A2</li>
-            </ul>
-            <div class="chaser">
-                <strong>Code example</strong>
-            </div>
-            <p class="about2"><strong>none</strong></p>
-     </div>
-     <div class="footer">
-         <p>В©1100</p>
-     </div>
-   </div>
- </body>
 </html>

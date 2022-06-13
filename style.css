@@ -2,7 +2,7 @@
     box-sizing: border-box;
     }
     html {
-    scroll-behavior: smooth; 
+    scroll-behavior: smooth;
     }
     body {
     font-family: 'Work Sans', sans-serif;
@@ -12,126 +12,120 @@
     justify-content: space-between;
     margin: 0;
     padding: 0;
+    min-width: 320px;
+    font-size: 18px;
     }
     .header{
-        border: 1px solid red;
+        border-bottom: 5px solid rgb(35, 171, 250);
+        
     }
     .main{
-        border: 1px solid red;
+        border-bottom: 3px solid rgb(35, 171, 250);
     }
     .footer{
-        border: 1px solid red;
+        border-bottom: 3px solid rgb(35, 171, 250);
     }
     .container {
         max-width: 1440px;
         margin: 0 auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
     }
     .nav-list {
     display: flex;
     justify-content: flex-end;
     align-items: center;
     list-style: none;
+    
     }
     .nav-link {
     padding: 0 20px;
-    line-height: 50px;
-    transition: .3s;
+    line-height: 20px;
+    transition: .5s;
+    }
+    .nav-item a {
+    color: #23ABFA;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: color .5s;
+    }
+    
+    .nav-item a:hover {
+        color: #cffd00;
     }
     .section-item a {
     color: #829985;
     text-decoration: none;  
     transition: color 0.5s;
     }
-    .section-item a:hover {
-    color: #4d2323;
-    }
     .main-container {
-    display: flex;
-    flex-wrap: wrap;
-    }
-      
+        display: flex;
+        flex-wrap: wrap;
+    }      
     .section {
-    width: 50%;
+    width: 100%;
+    margin: 10px;
+    border-bottom: 1px solid rgb(35, 171, 250);
+    padding-left: 30px;
     }
     @media (max-width: 768px) {
     .section {
     width: 100%;
+
     }
     }
-    .all {
-    margin: auto;
-    width: 100%;
+
+    .logo {
+        width: 300px;
+        height: 300px;
+        object-fit: cover;
+        border-radius: 50%;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6);
+        
     }
-    .left {
-    background-color: #98d5fd;
-    position: absolute;
-    width: 50%;
-    height: 829px;
+
+    .section-title {
+        margin-top: 20px;
+        color: #424551;
+        line-height: 50px;
+        font-weight: 600;
+        letter-spacing: 3px;
+        
     }
-    .right {
-    background-color: #f7fda1;
-    margin-left: 50%;
-    width: 50%;
-    position: absolute;
-    height: 829px;
-    }
-    .photo{
-    display: block;
-    margin: 0 auto;
-    max-height: 200px;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    border-radius: 50%;
+    .section-profile{
+        text-align: center;
+        letter-spacing: 4px;
+        
     }
     .name{
-    font-size: 3em;
-    text-align: left;
-    margin-left: 30px;
+        text-align: center;
+        font-size: 60px;
+        margin-top: 70px;
     }
-    .chaser{
-    margin-left: 10px;
-    font-size: 2em;
+    .line{
+        border-left: 1px solid rgb(35, 171, 250);
     }
-    .chaser2{
-    margin-left: 10px;
-    font-size: 2em;
-    margin-top: 12px;
-    }
+    .profile {
+        width: 100%;
+        margin-top: 30px;
+        padding-bottom: 30px;
+        display: flex;
+        align-items: stretch;
+        justify-content: space-around;
+        border-bottom: 5px solid rgb(35, 171, 250);
+      }
+
     .about{
-    margin: 30px;
-    font-size: 1vw;
-    text-align: justify;
-    line-height: 1.5;
+        width: 40%;
+        font-size: 20px;
+        color:rgb(1, 35, 54)
     }
-    .about1{
-    margin: 25px;
-    font-size: 1vw;
-    }
-    .about2{
-    margin-left: 30px;
-    font-size: 1vw;
-    text-align: justify;
-    line-height: 1.5;
-    margin-bottom: 31px;
-    }
-    .about3{
-    z-index: 1;
-    position: absolute;
-    width: 50%;
-    text-align: right;
-    margin-top: 3.6em;
-    margin-left: 8em;
-    font-size: 1vw;
-    }
-    .study{
-    position: absolute;
-    margin-left: 30px;
-    top: 150px;
-    }
-    .footer{
-    background-color: rgb(207, 207, 207);
-    width: 60%;
-    position: absolute;
-    margin-top: 829px;
-    text-align: center;
+    pre {
+        width: 40%;
+        display: block;
+        font-family: monospace;
+        white-space: pre;
+        margin: 1em 0px;
     }
