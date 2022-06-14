@@ -1,0 +1,271 @@
+*{
+	box-sizing: border-box;
+}
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	min-width: 320px;
+	min-height: 100vh;
+	margin: 0;
+	padding: 0;
+	font-size: 18px;
+	font-family: 'Josefin Sans', sans-serif;
+	font-weight: 400;
+	color: #756494;
+	background-color: #ffffff;
+}
+
+.main-header {
+	box-shadow: inset 0px -1px 0px #2abcff;
+
+}
+
+.container {
+	max-width: 1440px;
+	margin: 0 auto;
+	min-height: 50px;
+
+}
+.line{
+	border-left: 1px solid #e2f538;
+}
+.nav-list {
+	display: flex;
+	justify-content: center;
+	align-items: flex-start;
+	list-style: none;
+}
+
+.nav-link {
+	padding: 0 20px;
+	line-height: 50px;
+	transition: 0.5s;
+	font-size: 1.2vw;
+}
+
+.nav-item a {
+	color: #385ae0;
+	font-weight: 700;
+	text-transform: uppercase;
+	text-decoration: none;
+	transition: color 0.5s;
+}
+
+.nav-item a:hover {
+	color: #e2f538;
+}
+
+.main {
+	margin-bottom: auto;
+}
+
+.main-container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.section {
+	width: calc(50% - 20px);
+	padding: 10px;
+	padding-bottom: 35px;
+	border-bottom: 1px solid #2abcff;
+}
+
+.section-profile {
+	display: flex;
+	justify-content: space-around;
+	width: 100%;
+	padding: 30px;
+	border-bottom: 5px solid #2abcff;
+}
+
+.section-profile-logo {
+	width: 300px;
+	height: 300px;
+	object-fit: cover;
+	border-radius: 50%;
+	box-shadow: 2px 4px 8px rgb(0 0 0 / 60%);
+}
+
+.section-profile-title {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-content: center;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.section-title {
+	margin-bottom: 20px;
+	font-size: 20px;
+	font-weight: 600;
+	text-transform: uppercase;
+	letter-spacing: 5px;
+	color: #3f4ae4;
+	border-left: 2px solid #e2f538;
+	padding-left: 15px;
+	padding-top: 10px;
+}
+
+.main-name {
+	position: relative;
+	padding: 0;
+	margin-bottom: 20px;
+	color: #385ae0;
+	font-size: 50px;
+	font-weight: 700;
+	letter-spacing: 10px;
+	line-height: 50px;
+	word-spacing: 3px;
+	text-align: center;
+	margin-top: 80px;
+	margin-top: 80px;
+}
+
+.section-subname {
+	margin-top: 20px;
+	color: #424551;
+	line-height: 50px;
+	font-weight: 300;
+	letter-spacing: 2px;
+	text-align: center;
+}
+
+.section-list {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.section-item {
+	position: relative;
+	margin: 0;
+	margin-bottom: 10px;
+	padding: 0;
+	padding-left: 30px;
+}
+
+.section-item a {
+	text-decoration: none;
+	color: #385ae0;
+	transition: color 0.35s;
+}
+
+.section-item a:hover {
+	color: #e2f538;
+}
+
+.section-item span {
+	color: #385ae0;
+}
+.pre {
+	padding: 0;
+	margin: 0;
+}
+
+.section-education,
+.section-languages {
+	border-bottom: 0;
+}
+
+.footer {
+	background-color: #385ae0;
+	padding: 5px;
+}
+
+.footer-container {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin: 0 auto;
+	color: #fff;
+}
+.git {
+	color: #fff;
+	text-decoration: none;
+	line-height: 45px;
+	transition: color 0.35s;
+}
+
+.git:hover {
+	color: #e2f538;
+}
+
+.rss {
+	width: 121px;
+	height: 45px;
+	background-image: url('https://rs.school/images/rs_school_js.svg');
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+.toggle {
+	display: none;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 40px;
+	height: 40px;
+	margin-top: 5px;
+	margin-left: auto;
+	cursor: pointer;
+	user-select: none;
+	z-index: 15;
+}
+
+.toggle div {
+	width: 80%;
+	height: 2px;
+	background: #0025b9;
+	margin: 3px 0;
+	z-index: 15;
+}
+
+.toggle.collapsed .line1 {
+	transform: rotate(-45deg) translate(-5px, 6px);
+}
+
+.toggle.collapsed .line2 {
+	opacity: 0;
+}
+
+.toggle.collapsed .line3 {
+	transform: rotate(45deg) translate(-5px, -6px);
+}
+
+@media (max-width: 1440px) {
+	.container {
+		padding: 0 20px;
+	}
+}
+
+
+@media (max-width: 710px) {
+	.section {
+		width: 100%;
+	}
+	.section-profile {
+		flex-direction: column;
+		align-items: center;
+	}
+	.section-education {
+		border-bottom: 1px solid #011e8f;
+	}
+	.footer-container {
+		flex-direction: column;
+		align-items: center;
+	}
+	.nav {
+		display: none;
+	}
+	.toggle {
+		display: flex;
+	
+}
+}
